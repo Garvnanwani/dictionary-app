@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary</title>
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container">
+          <h1>Garv Dict</h1>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section>
+        <h1>Type any word to get started</h1>
+        <form autocomplete="off">
+          <div class="wrapper">
+            <div class="webflow-style-input">
+              <input class="input" id="input" type="text" placeholder="Search any word"></input>
+              <button type="submit" id="search"><i class="icon ion-android-arrow-forward"></i></button>
+            </div>
+          </div>
+        </form>
+      </section>
+      <section class="data">
+        <span class="loading">Loading...🔃🔃</span>
+        <p class="definition"></p>
+        <div class="audio"></div>
+        <div id="not_found"></div>
+        <div id="suggest"></div>
+      </section>
+    </main>
+    <script src=".js/config.js"></script>
+    <script src=".js/app.js"></script>
+  </body>
+</html>
