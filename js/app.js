@@ -6,7 +6,7 @@ let audioBox = document.querySelector('.audio')
 let loading = document.querySelector('.loading')
 let suggest = document.querySelector('#suggest')
 
-const key = config.API_KEY;
+const key = API_KEY;
 
 button.addEventListener('click', (e) => {
     e.preventDefault();
