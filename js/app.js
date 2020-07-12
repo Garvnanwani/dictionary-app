@@ -22,6 +22,7 @@ button.addEventListener('click', (e) => {
         alert('please enter something');
     } else {
         getMeaning(word);
+        clear(word);
     }
 })
 

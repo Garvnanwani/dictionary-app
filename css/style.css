@@ -122,6 +122,7 @@ button {
   font-size: 1.8rem;
   line-height: 2.4rem;
   vertical-align: middle;
+  width: 90%;
 }
 
 .webflow-style-input input::-webkit-input-placeholder {
