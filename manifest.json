@@ -1,0 +1,34 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Dictionary",
+    "short_name": "GarvDict",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://garvdictionary.netlify.app/",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "Dictionary app where in you can find the meaning of any word along with its pronunciation and it also gives suggestions in case you get the spelling wrong",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "https://garvdictionary.netlify.app//dict.ico",
+            "sizes": "256x256 128x128 96x96 72x72 64x64 48x48 32x32 24x24 16x16"
+        }
+    ],
+    "url": "https://garvdictionary.netlify.app/",
+    "screenshots": [
+        {
+            "src": "[Embedded]",
+            "sizes": "1280x800",
+            "type": "image/png"
+        },
+        {
+            "src": "[Embedded]",
+            "sizes": "750x1334",
+            "type": "image/png"
+        }
+    ]
+}
